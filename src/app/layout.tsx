@@ -23,8 +23,12 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     <html lang="en" className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}>
       <body className="min-h-full flex flex-col bg-background text-foreground">
         <div className="mesh-bg" />
+        <div className="grid-bg" />
+        <div className="floating-orb w-96 h-96 bg-primary/20 top-20 -left-48" style={{ animationDelay: "0s" }} />
+        <div className="floating-orb w-72 h-72 bg-accent/15 bottom-20 -right-36" style={{ animationDelay: "2s" }} />
+        <div className="floating-orb w-64 h-64 bg-cyan/10 top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2" style={{ animationDelay: "4s" }} />
         <Navbar />
-        <main className="flex-1 pt-16">{children}</main>
+        <main className="flex-1 pt-16 relative z-10">{children}</main>
       </body>
     </html>
   );
