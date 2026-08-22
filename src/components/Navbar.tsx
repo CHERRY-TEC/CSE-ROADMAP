@@ -30,8 +30,8 @@ export default function Navbar() {
               <div className="absolute -top-0.5 -right-0.5 w-3 h-3 rounded-full bg-success border-2 border-background animate-pulse" />
             </div>
             <div className="hidden sm:block">
-              <span className="text-lg font-bold text-gradient">InternPrep</span>
-              <span className="text-[10px] text-muted block -mt-0.5">AI/ML Roadmap</span>
+              <span className="text-lg font-bold text-gradient">CSE Prep</span>
+              <span className="text-[10px] text-muted block -mt-0.5">CS Engineering Roadmap</span>
             </div>
           </Link>
 

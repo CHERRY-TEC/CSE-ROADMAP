@@ -24,9 +24,9 @@ export default function RoadmapPage() {
   });
 
   const years = [
-    { label: "Year 1 - Foundations", desc: "Python, DSA, Math, Tools", range: [1, 12], gradient: "from-primary to-blue-500" },
-    { label: "Year 2 - Core ML", desc: "ML, DL, NLP, Projects", range: [13, 24], gradient: "from-accent to-purple-500" },
-    { label: "Year 3 - Advanced", desc: "GenAI, MLOps, Research", range: [25, 36], gradient: "from-warning to-orange-500" },
+    { label: "Year 1 - Foundations", desc: "C, DSA, OS, CN, DBMS Basics", range: [1, 12], gradient: "from-primary to-blue-500" },
+    { label: "Year 2 - Core Systems", desc: "Advanced DSA, CP, Full-Stack, Cloud", range: [13, 24], gradient: "from-accent to-purple-500" },
+    { label: "Year 3 - Advanced", desc: "System Design, ML, DevOps", range: [25, 36], gradient: "from-warning to-orange-500" },
     { label: "Year 4 - Placement", desc: "Interviews, Portfolio, Jobs", range: [37, 48], gradient: "from-success to-emerald-500" },
   ];
 
@@ -43,9 +43,9 @@ export default function RoadmapPage() {
               <span className="text-xs text-warning font-medium uppercase tracking-widest">30 Topics</span>
             </div>
             <h1 className="text-3xl sm:text-4xl font-bold mb-2">
-              <span className="text-gradient">4-Year Roadmap</span>
+              <span className="text-gradient">4-Year CSE Roadmap</span>
             </h1>
-            <p className="text-muted text-sm sm:text-base">Complete AI/ML internship preparation timeline</p>
+            <p className="text-muted text-sm sm:text-base">Complete Computer Science internship preparation timeline</p>
             <div className="mt-4 flex items-center gap-4">
               <div className="text-sm text-foreground">
                 <span className="font-bold text-primary">{totalChecked}</span> <span className="text-muted">/ 30 completed</span>

@@ -50,11 +50,11 @@ export default function Dashboard() {
             
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold mb-4 leading-tight">
               Welcome to{" "}
-              <span className="text-gradient">InternPrep</span>
+              <span className="text-gradient">CSE Prep</span>
             </h1>
             
             <p className="text-muted text-lg sm:text-xl max-w-2xl mb-6 leading-relaxed">
-              Your complete 4-year AI/ML internship preparation roadmap. Track progress, master skills, and land your dream internship.
+              Your complete 4-year CSE internship preparation roadmap. Master DSA, OS, CN, DBMS, and land your dream internship.
             </p>
             
             <div className="flex flex-wrap gap-4">

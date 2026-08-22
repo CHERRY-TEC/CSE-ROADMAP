@@ -34,7 +34,7 @@ export default function ResourcesPage() {
             <h1 className="text-3xl sm:text-4xl font-bold mb-2">
               <span className="text-gradient">Resources</span>
             </h1>
-            <p className="text-muted text-sm sm:text-base">Curated courses, books, tools and websites for your AI/ML journey</p>
+            <p className="text-muted text-sm sm:text-base">Curated courses, books, tools and websites for your CSE journey</p>
           </div>
         </div>
       </div>

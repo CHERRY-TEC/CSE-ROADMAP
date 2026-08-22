@@ -14,8 +14,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "InternPrep - AI/ML Internship Roadmap",
-  description: "4-year AI/ML internship preparation roadmap with progress tracking, resources, projects, and interview prep",
+  title: "CSE Prep - Computer Science Internship Roadmap",
+  description: "4-year CSE internship preparation roadmap with DSA, OS, CN, DBMS, projects, and interview prep",
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
