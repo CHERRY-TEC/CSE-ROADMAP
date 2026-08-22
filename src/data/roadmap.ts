@@ -70,4 +70,5 @@ export const roadmapData: RoadmapItem[] = [
   { id: "apply2", title: "Final Placement Push", description: "Apply to 100+ companies, leverage referrals, follow up consistently, negotiate offers.", month: 41, year: 4, category: "interview", difficulty: "intermediate", milestone: "Final Push", resources: [{ name: "LinkedIn", url: "https://linkedin.com" }, { name: "Ambition Box", url: "https://ambitionbox.com" }], teluguVideo: { title: "Job Strategy in Telugu", url: "https://www.youtube.com/watch?v=8kK5sK3sK4", channel: "Telugu Career Guide" } },
 ]; 
     
+    
  
