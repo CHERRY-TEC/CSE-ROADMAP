@@ -1,4 +1,4 @@
-﻿import { InterviewQuestion } from "./roadmap";
+import { InterviewQuestion } from "./roadmap";
 
 export const interviewData: InterviewQuestion[] = [
   { id: "iq1", question: "Explain the difference between process and thread", category: "os", difficulty: "easy", answer: "A process is an independent program with its own memory space. A thread is a lightweight process sharing memory with other threads in the same process. Threads are faster to create but require synchronization." },

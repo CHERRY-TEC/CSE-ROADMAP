@@ -1,4 +1,4 @@
-﻿import { Project } from "./roadmap";
+import { Project } from "./roadmap";
 
 export const projectsData: Project[] = [
   { id: "p1", title: "Student Management System", description: "Console-based CRUD app with file/database storage", difficulty: "beginner", category: "console", skills: ["C/Java", "File I/O", "SQL"], timeWeeks: 2, ideas: ["Add/Remove/Edit students", "Search by ID/name", "Generate reports", "Save to file/database"] },
